@@ -7,7 +7,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 @Transactional
 @Repository
-public class  BookingRepository extends CrudRepository {
+public interface   BookingRepository extends CrudRepository {
 
     /**
      * This method will find an Boooking instance in the database by its departure.
